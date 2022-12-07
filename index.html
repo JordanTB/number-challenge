@@ -1,14 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-	<script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Safe Cracker</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/calculator-outline.svg" />
+  </head>
+  <body>
+    <main>
+      <h1>Safe Cracker</h1>
+      <p>Crack The Safe Combo!</p>
+      <form>
+        <input
+          type="number"
+          name="val1"
+          id="val1"
+          placeholder="0"
+          oninput="checkVal1()"
+        />
+        <input
+          type="number"
+          name="val2"
+          id="val2"
+          placeholder="0"
+          oninput="checkVal2()"
+        />
+        <input
+          type="number"
+          name="val3"
+          id="val3"
+          placeholder="0"
+          oninput="checkVal3()"
+        />
+        <input
+          type="number"
+          name="val4"
+          id="val4"
+          placeholder="0"
+          oninput="checkVal4()"
+        />
+      </form>
+    </main>
+    <script src="script.js"></script>
+  </body>
 </html>
