@@ -35,19 +35,20 @@ br {
 input {
   color: black;
 }
-.submit {
-  color: black;
-  padding: 5px;
-}
 button {
+  font-family: "Bebas Neue", "Helvetica Neue", Helvetica, Arial, sans;
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 15px;
   padding: 15px;
   border-radius: 25px;
   box-shadow: 2px 2px 2px black;
 }
 button:hover {
-  background-color: rgb(194, 194, 194);
-  margin: 2px;
-  padding: 13px;
+  background-color: rgb(224, 224, 224);
+  margin: 16px;
+  padding: 14px;
   box-shadow: 1px 1px 1px rgb(56, 56, 56);
 }
 *,

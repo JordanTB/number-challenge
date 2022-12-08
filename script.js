@@ -27,8 +27,7 @@ const checkVal1 = () => {
     document.getElementById("val1").style.borderColor = "red";
     res1 = false;
   }
-
-  cracked();
+  isCracked();
 };
 const checkVal2 = () => {
   val2 = document.getElementById("val2").value;
@@ -39,7 +38,7 @@ const checkVal2 = () => {
     document.getElementById("val2").style.borderColor = "red";
     res2 = false;
   }
-  cracked();
+  isCracked();
 };
 const checkVal3 = () => {
   val3 = document.getElementById("val3").value;
@@ -50,7 +49,7 @@ const checkVal3 = () => {
     document.getElementById("val3").style.borderColor = "red";
     res3 = false;
   }
-  cracked();
+  isCracked();
 };
 const checkVal4 = () => {
   val4 = document.getElementById("val4").value;
@@ -61,10 +60,10 @@ const checkVal4 = () => {
     document.getElementById("val4").style.borderColor = "red";
     res4 = false;
   }
-  cracked();
+  isCracked();
 };
 
-const cracked = () => {
+const isCracked = () => {
   if (res1 == true && res2 == true && res3 == true && res4 == true) {
     result.innerHTML = "💰💰💰";
     form.append(result);
