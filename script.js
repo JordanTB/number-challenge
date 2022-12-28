@@ -1,11 +1,4 @@
-let val1;
-let val2;
-let val3;
-let val4;
-let res1;
-let res2;
-let res3;
-let res4;
+let val1, val2, val3, val4, res1, res2, res3, res4;
 let form = document.querySelector("form");
 let result = document.createElement("h2");
 
